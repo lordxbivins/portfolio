@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+
+body{
+  background-color: #000000;
+color: white;
+}
+
+.header{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 20px 10%;
+   background:transparent;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  color: #ebebeb;
+  text-decoration:none;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar a{
+  font-size:18px;
+  color: #ebebeb;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 35px;
+  
+}
+
+
+.navbar a:hover,
+.navbar a.active{
+color: #53d5fd;
+  
+ 
+}
